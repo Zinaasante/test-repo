@@ -19,8 +19,8 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: Check Uptime
-        run: Uptime
+        run: uptime
       - name: Cpu info
         run: nproc
-      - name: Kernel info
+      - name: kernel info
         run: uname -r
